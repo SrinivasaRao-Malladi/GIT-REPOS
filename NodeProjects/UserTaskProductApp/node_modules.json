@@ -1,0 +1,23 @@
+{
+  "name": "user-task-product-api",
+  "version": "1.0.0",
+  "description": "REST API for User/Task/Product management system with SQLite and Zod validation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "keywords": ["rest-api", "express", "sqlite", "zod"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "knex": "^3.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
