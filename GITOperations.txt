@@ -1,0 +1,2 @@
+git config --global user.email "swsrinivas21@gmail.com"
+git config --global user.name "SRINI-AI-DESKTOP"
